@@ -16,8 +16,7 @@ Complete
 - IVQ
 - PDBVR (unnamed)
 
-
-(15)
+- Perspective Projection Mapping
 
 
 
@@ -25,3 +24,11 @@ In Progress
 - Asthma Object Find
 - Microscope
 - TLT Calendar
+
+
+
+Icons:
+	- VR
+	- In Progress
+
+15
