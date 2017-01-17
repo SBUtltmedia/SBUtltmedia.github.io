@@ -1,12 +1,24 @@
 Complete
 - SIMPLE
 - Bio Sim Games
-- PDBVR (unnamed)
+	- MicroPipette
+	- Spectrophotometer
+	- Graduated Cylinder
+	- Vernier Caliper
+	- Centrifuge
+	- PH Meter
 - BrainPicker
 - Trivia
 - Stock Market
 - VR Tower of Hanoi
+- VR Tarski’s Truth Machine
+
 - IVQ
+- PDBVR (unnamed)
+
+
+(15)
+
 
 
 In Progress
