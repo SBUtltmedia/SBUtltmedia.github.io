@@ -1,0 +1,200 @@
+/*
+  1. Image classes
+  2. Grid shit
+  3. Responsive shit
+*/
+
+
+
+
+/* 1. Image classes */
+.brainpicker{ 
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+	    url("../img/brainpicker.png"); 
+}
+
+.calendar{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/calendar.png"); }
+
+.centrifuge{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/centrifuge.png"); }
+
+.cylinder{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/cylinder.png"); }
+
+.hanoi{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/hanoi.png"); }
+
+.microscope{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/microscope.png"); }
+.objectfind{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/objectfind.png"); }
+
+.PDBVR{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/PDBVR.png"); }
+.phmeter{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/phmeter.png"); }
+
+.pipettor{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/pipettor.png"); }
+
+.simple{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/simple.png"); }
+
+.spectrophotometer{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/spectrophotometer.png"); }
+
+.stockmarket{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/stockmarket.png"); }
+
+.tarski{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/tarski.png"); }
+
+.vernier{
+	background-image:     
+		linear-gradient(
+	      rgba(0, 0, 0, .5), 
+	      rgba(0, 0, 0, .75)),
+		url("../img/vernier.png"); }
+/* =============================================== */
+
+
+
+
+
+/* 2. Grid shit */
+a{
+	transition: color 150ms ease;
+	cursor: pointer;
+	    color: #fff;
+}
+
+.grid-topic{
+    position: relative;
+    min-height: 1px;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* "contain" to not crop image */
+    border: 5px solid white;
+    cursor: pointer;
+    transition: all 0.35s ease;
+	box-sizing: inherit;
+	height:0;
+}
+
+.grid-content{
+	padding: 1.5em;
+    text-align: left;
+    line-height: 1.2;
+    margin: 0 0 0.75em;
+    /*box-sizing: inherit;*/
+}
+
+.grid-title{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 1.5em;
+	text-decoration: none;
+}
+
+.grid-subtitle{
+    font-size: 1em;
+    line-height: 1.2;
+    color: #fff;
+}
+
+
+
+
+
+/* 3. Responsive shit */
+@media (min-width: 0px) {
+.grid-topic {
+        width: 100%;
+        padding-bottom : 100%;
+    }
+}
+
+@media (min-width: 768px) {
+.grid-topic {
+        width: 50%;
+        padding-bottom : 50%;
+    }
+}
+
+@media (min-width: 992px) {
+.grid-topic {
+        width: 33.3%;
+        padding-bottom : 33.3%;
+    }
+}
+
+@media (min-width: 1200px) {
+.grid-topic {
+        width: 20%;
+        padding-bottom: 20%;
+    }
+}
+
+
+
+
+
+
